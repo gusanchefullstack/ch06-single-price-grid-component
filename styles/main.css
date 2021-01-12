@@ -20,17 +20,20 @@ main {
     margin-bottom: 50px;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 section {
     min-width: 280px;
     max-width: 320px;
     width: 100%;
     padding: 20px;
+    
 }
 .comunity-container {
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow:  8px 1px 14px 0px lightgrey;
 }
 .comunity-container h1 {
     color: var(--Cyan);
@@ -48,14 +51,44 @@ section {
 }
 .subscription-container {
     background-color: var(--Cyan);
+    
 }
 .subscription-container h3 {
     color: white;
+    
+}
+
+.subscription-container .price {
+    display: flex;
+    align-items: center;
+    color: var(--Light-Gray);
+    margin-top: 20px;
+}
+.subscription-container p:nth-of-type(2) {
+    color: var(--Light-Gray);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.price span {
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 20px;
+    color: white;
+}
+.subscription-container button {
+    background-color: var(--Bright-Yellow);
+    width: 90%;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 0px slategray;
 }
 .whyus-container {
     background-color: #4abebd;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow:  4px 12px 14px 0px lightgrey;
 }
 .whyus-container h3 {
     color: white;
