@@ -27,13 +27,14 @@ section {
     max-width: 320px;
     width: 100%;
     padding: 20px;
+    box-shadow:  8px 1px 14px 0px lightgrey;
     
 }
 .comunity-container {
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow:  8px 1px 14px 0px lightgrey;
+    
 }
 .comunity-container h1 {
     color: var(--Cyan);
@@ -77,12 +78,14 @@ section {
 }
 .subscription-container button {
     background-color: var(--Bright-Yellow);
-    width: 90%;
+    width: 95%;
     color: white;
+    font-size: 16px;
     padding: 15px;
     border: none;
     border-radius: 5px;
     box-shadow: 3px 3px 10px 0px slategray;
+    margin: 8px 0;
 }
 .whyus-container {
     background-color: #4abebd;
